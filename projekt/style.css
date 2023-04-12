@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* SEKCJA HEADER */
+.head {
+    width: 100%;
+    background-color: #fd5e3a;
+}
+
+.head__title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.menu {
+
+}
+
+.menu__item {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.menu__link {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+/* SEKCJA MAIN */
+.main {
+    background-color: white;
+}
+
+.hero__name { 
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.hero__image {
+    width: 200px;
+}
+
+.hero__description {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+}
+
+.heroList__title {
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.heroList__item {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.article__title {
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.article__paragraph {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+}
+
+#articles {
+}
+
+/* SEKCJA FOOTER */
+
+.footer {
+    background-color: black;
+}
+
+.footer__paragraph {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
